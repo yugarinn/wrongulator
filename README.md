@@ -1,6 +1,6 @@
 # The Wrongulator
 
-![]http://i.imgur.com/aJIeSJL.png
+![](http://i.imgur.com/aJIeSJL.png)
 
 A calculator that will (almost) always give you wrong answers, sometimes they won't even be numbers!
 Because why not?
