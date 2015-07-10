@@ -1,8 +1,3 @@
-/* TODO
- * 
- *  - Make screen global
- */
-
 window.addEventListener('load', init, false);
 
 function init(e) {       
@@ -59,12 +54,11 @@ var spiceThingsUp = function() {
     if(!isPrime(random_whatever)) {
         var random_num = Math.floor((Math.random() * 9) + 1);
         var random_operator = operators [Math.floor((Math.random() * 3) + 1)];
-
+        console.log('Random operator: ' + random_operator + random_num + '\nRandom whatever: ' + random_whatever);
         return random_operator + random_num;
     } else {
         return special_char[Math.floor((Math.random() * 5) + 1)];
-    }
-        
+    }        
 }
 
 var isPrime = function(number) {

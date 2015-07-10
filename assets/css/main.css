@@ -3,9 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-    /* Better text styling */
-    font: bold 14px Arial, sans-serif;
 }
 
 /* Finally adding some IE9 fallbacks for gradients to finish things up */
@@ -19,7 +16,18 @@ html {
 }
 
 h1 {
-    margin: auto;
+    font-family: 'Lobster';
+    font-size: 34px;
+    margin: 60px auto;
+    vertical-align: middle;
+    display: block;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Lobster';
+    font-size: 14px;
+    margin: -50px auto;
     vertical-align: middle;
     display: block;
     text-align: center;
@@ -27,10 +35,11 @@ h1 {
 
 /* Using box shadows to create 3D effects */
 #calculator {
-    width: 325px;
+    max-width: 325px;
     height: auto;
-
-    margin: 100px auto;
+    font: bold 14px Arial, sans-serif;
+    
+    margin: 60px auto;
     padding: 20px 20px 9px;
 
     background: #9dd2ea;
@@ -149,4 +158,11 @@ h1 {
 .top span.clear:active {
     top: 4px;
     box-shadow: 0px 0px #d3545d;
+}
+
+footer, footer *{
+    font-size: 13px;
+    vertical-align: middle;
+    display: block;
+    text-align: center;
 }
